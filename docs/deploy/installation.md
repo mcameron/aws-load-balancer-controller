@@ -28,7 +28,7 @@ You can set the IMDSv2 hop limit as follows:
 aws ec2 modify-instance-metadata-options --http-put-response-hop-limit 2 --region <region> --instance-id <instance-id>
 ```
 
-Instead of depending on IMDSv2, you alternatively may specify the AWS region and the VPC via the controller flags `--aws-region` and `--aws-vpc-id`.
+Instead of depending on IMDSv2, you alternatively may specify the AWS region and the VPC via the controller flags `--aws-region` and `--vpcId`.
 
 ## Configure IAM
 
